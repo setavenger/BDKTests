@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		589E5C26541346C351393EF7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 589E5D28FA86B8201A2B5C94 /* README.md */; };
+		9502F1F92A5C691F00CDF4AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9502F1F82A5C691F00CDF4AC /* ContentView.swift */; };
+		95C67BB62A5DBA420038E39F /* Satoshi-Symbol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95C67BB42A5DA7350038E39F /* Satoshi-Symbol.ttf */; };
+		95C67BBA2A5DD00A0038E39F /* TxsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C67BB92A5DD00A0038E39F /* TxsView.swift */; };
+		95C67BBC2A5DD0A60038E39F /* SingleTxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C67BBB2A5DD0A60038E39F /* SingleTxView.swift */; };
+		95C67BBE2A5DE7000038E39F /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C67BBD2A5DE7000038E39F /* ReceiveView.swift */; };
+		95C67BC02A5E874A0038E39F /* SignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C67BBF2A5E874A0038E39F /* SignView.swift */; };
+		95C67BC22A5ED6900038E39F /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C67BC12A5ED6900038E39F /* SendView.swift */; };
+		95C67BC52A5ED7250038E39F /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 95C67BC42A5ED7250038E39F /* CodeScanner */; };
+		95C67BC72A5EF9070038E39F /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C67BC62A5EF9070038E39F /* KeyView.swift */; };
+		95C67BC92A5F008C0038E39F /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C67BC82A5F008C0038E39F /* Extras.swift */; };
+		95C67BCB2A5F21120038E39F /* Startview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C67BCA2A5F21120038E39F /* Startview.swift */; };
+		95C67BCD2A5F21580038E39F /* XpubInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C67BCC2A5F21580038E39F /* XpubInputView.swift */; };
+		95C67BCF2A6059E20038E39F /* KeyManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C67BCE2A6059E20038E39F /* KeyManagement.swift */; };
+		95C67BD12A61359F0038E39F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 95C67BD02A61359F0038E39F /* .gitignore */; };
 		95EF9C772A5C3E9C0034F4A0 /* BDKTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF9C762A5C3E9C0034F4A0 /* BDKTestsApp.swift */; };
-		95EF9C792A5C3E9C0034F4A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF9C782A5C3E9C0034F4A0 /* ContentView.swift */; };
 		95EF9C7B2A5C3E9E0034F4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EF9C7A2A5C3E9E0034F4A0 /* Assets.xcassets */; };
 		95EF9C7E2A5C3E9E0034F4A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EF9C7D2A5C3E9E0034F4A0 /* Preview Assets.xcassets */; };
 		95EF9C882A5C3E9E0034F4A0 /* BDKTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF9C872A5C3E9E0034F4A0 /* BDKTestsTests.swift */; };
 		95EF9C922A5C3E9E0034F4A0 /* BDKTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF9C912A5C3E9E0034F4A0 /* BDKTestsUITests.swift */; };
 		95EF9C942A5C3E9E0034F4A0 /* BDKTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF9C932A5C3E9E0034F4A0 /* BDKTestsUITestsLaunchTests.swift */; };
+		95EF9CA22A5C3F290034F4A0 /* BitcoinDevKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95EF9CA12A5C3F290034F4A0 /* BitcoinDevKit */; };
+		95EF9CA42A5C4D490034F4A0 /* WalletManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF9CA32A5C4D490034F4A0 /* WalletManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		589E5D28FA86B8201A2B5C94 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9502F1F82A5C691F00CDF4AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95C67BB42A5DA7350038E39F /* Satoshi-Symbol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Symbol.ttf"; sourceTree = "<group>"; };
+		95C67BB52A5DB92A0038E39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		95C67BB92A5DD00A0038E39F /* TxsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxsView.swift; sourceTree = "<group>"; };
+		95C67BBB2A5DD0A60038E39F /* SingleTxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTxView.swift; sourceTree = "<group>"; };
+		95C67BBD2A5DE7000038E39F /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
+		95C67BBF2A5E874A0038E39F /* SignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignView.swift; sourceTree = "<group>"; };
+		95C67BC12A5ED6900038E39F /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
+		95C67BC62A5EF9070038E39F /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+		95C67BC82A5F008C0038E39F /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		95C67BCA2A5F21120038E39F /* Startview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Startview.swift; sourceTree = "<group>"; };
+		95C67BCC2A5F21580038E39F /* XpubInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XpubInputView.swift; sourceTree = "<group>"; };
+		95C67BCE2A6059E20038E39F /* KeyManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManagement.swift; sourceTree = "<group>"; };
+		95C67BD02A61359F0038E39F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		95EF9C732A5C3E9C0034F4A0 /* BDKTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDKTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EF9C762A5C3E9C0034F4A0 /* BDKTestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDKTestsApp.swift; sourceTree = "<group>"; };
-		95EF9C782A5C3E9C0034F4A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95EF9C7A2A5C3E9E0034F4A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95EF9C7D2A5C3E9E0034F4A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95EF9C832A5C3E9E0034F4A0 /* BDKTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDKTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +74,7 @@
 		95EF9C8D2A5C3E9E0034F4A0 /* BDKTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDKTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EF9C912A5C3E9E0034F4A0 /* BDKTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDKTestsUITests.swift; sourceTree = "<group>"; };
 		95EF9C932A5C3E9E0034F4A0 /* BDKTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDKTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95EF9CA32A5C4D490034F4A0 /* WalletManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C67BC52A5ED7250038E39F /* CodeScanner in Frameworks */,
+				95EF9CA22A5C3F290034F4A0 /* BitcoinDevKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +104,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95C67BB02A5DA6C80038E39F /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				95C67BB42A5DA7350038E39F /* Satoshi-Symbol.ttf */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
 		95EF9C6A2A5C3E9C0034F4A0 = {
 			isa = PBXGroup;
 			children = (
+				95C67BD02A61359F0038E39F /* .gitignore */,
+				95C67BB02A5DA6C80038E39F /* Ressources */,
 				95EF9C752A5C3E9C0034F4A0 /* BDKTests */,
 				95EF9C862A5C3E9E0034F4A0 /* BDKTestsTests */,
 				95EF9C902A5C3E9E0034F4A0 /* BDKTestsUITests */,
 				95EF9C742A5C3E9C0034F4A0 /* Products */,
+				589E5D28FA86B8201A2B5C94 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +138,22 @@
 		95EF9C752A5C3E9C0034F4A0 /* BDKTests */ = {
 			isa = PBXGroup;
 			children = (
+				9502F1F82A5C691F00CDF4AC /* ContentView.swift */,
+				95C67BB52A5DB92A0038E39F /* Info.plist */,
 				95EF9C762A5C3E9C0034F4A0 /* BDKTestsApp.swift */,
-				95EF9C782A5C3E9C0034F4A0 /* ContentView.swift */,
 				95EF9C7A2A5C3E9E0034F4A0 /* Assets.xcassets */,
 				95EF9C7C2A5C3E9E0034F4A0 /* Preview Content */,
+				95EF9CA32A5C4D490034F4A0 /* WalletManager.swift */,
+				95C67BB92A5DD00A0038E39F /* TxsView.swift */,
+				95C67BBB2A5DD0A60038E39F /* SingleTxView.swift */,
+				95C67BBD2A5DE7000038E39F /* ReceiveView.swift */,
+				95C67BBF2A5E874A0038E39F /* SignView.swift */,
+				95C67BC12A5ED6900038E39F /* SendView.swift */,
+				95C67BC62A5EF9070038E39F /* KeyView.swift */,
+				95C67BC82A5F008C0038E39F /* Extras.swift */,
+				95C67BCA2A5F21120038E39F /* Startview.swift */,
+				95C67BCC2A5F21580038E39F /* XpubInputView.swift */,
+				95C67BCE2A6059E20038E39F /* KeyManagement.swift */,
 			);
 			path = BDKTests;
 			sourceTree = "<group>";
@@ -143,6 +199,10 @@
 			dependencies = (
 			);
 			name = BDKTests;
+			packageProductDependencies = (
+				95EF9CA12A5C3F290034F4A0 /* BitcoinDevKit */,
+				95C67BC42A5ED7250038E39F /* CodeScanner */,
+			);
 			productName = BDKTests;
 			productReference = 95EF9C732A5C3E9C0034F4A0 /* BDKTests.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +275,10 @@
 				Base,
 			);
 			mainGroup = 95EF9C6A2A5C3E9C0034F4A0;
+			packageReferences = (
+				95EF9CA02A5C3F290034F4A0 /* XCRemoteSwiftPackageReference "bdk-swift" */,
+				95C67BC32A5ED7250038E39F /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 95EF9C742A5C3E9C0034F4A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C67BD12A61359F0038E39F /* .gitignore in Resources */,
 				95EF9C7E2A5C3E9E0034F4A0 /* Preview Assets.xcassets in Resources */,
 				95EF9C7B2A5C3E9E0034F4A0 /* Assets.xcassets in Resources */,
+				95C67BB62A5DBA420038E39F /* Satoshi-Symbol.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +323,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EF9C792A5C3E9C0034F4A0 /* ContentView.swift in Sources */,
+				95C67BBE2A5DE7000038E39F /* ReceiveView.swift in Sources */,
+				95C67BCF2A6059E20038E39F /* KeyManagement.swift in Sources */,
+				95EF9CA42A5C4D490034F4A0 /* WalletManager.swift in Sources */,
+				95C67BC02A5E874A0038E39F /* SignView.swift in Sources */,
 				95EF9C772A5C3E9C0034F4A0 /* BDKTestsApp.swift in Sources */,
+				95C67BCD2A5F21580038E39F /* XpubInputView.swift in Sources */,
+				95C67BBA2A5DD00A0038E39F /* TxsView.swift in Sources */,
+				95C67BC72A5EF9070038E39F /* KeyView.swift in Sources */,
+				95C67BC92A5F008C0038E39F /* Extras.swift in Sources */,
+				95C67BCB2A5F21120038E39F /* Startview.swift in Sources */,
+				95C67BBC2A5DD0A60038E39F /* SingleTxView.swift in Sources */,
+				95C67BC22A5ED6900038E39F /* SendView.swift in Sources */,
+				9502F1F92A5C691F00CDF4AC /* ContentView.swift in Sources */,
+				589E5C26541346C351393EF7 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,23 +492,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BDKTests/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "BDKTests/Preview\\ Content Ressources/Satoshi-Symbol.ttf";
 				DEVELOPMENT_TEAM = N4KJS45H4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BDKTests/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BTCMulti;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Read Bitcoin address QR codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.snblago.BDKTests;
+				MARKETING_VERSION = 0.1.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snblago.BTCMulti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,23 +527,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BDKTests/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "BDKTests/Preview\\ Content Ressources/Satoshi-Symbol.ttf";
 				DEVELOPMENT_TEAM = N4KJS45H4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BDKTests/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BTCMulti;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Read Bitcoin address QR codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.snblago.BDKTests;
+				MARKETING_VERSION = 0.1.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snblago.BTCMulti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -583,6 +673,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		95C67BC32A5ED7250038E39F /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		95EF9CA02A5C3F290034F4A0 /* XCRemoteSwiftPackageReference "bdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bitcoindevkit/bdk-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95C67BC42A5ED7250038E39F /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95C67BC32A5ED7250038E39F /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		95EF9CA12A5C3F290034F4A0 /* BitcoinDevKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95EF9CA02A5C3F290034F4A0 /* XCRemoteSwiftPackageReference "bdk-swift" */;
+			productName = BitcoinDevKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 95EF9C6B2A5C3E9C0034F4A0 /* Project object */;
 }
